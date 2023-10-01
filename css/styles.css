@@ -37,6 +37,7 @@ h4 {
     margin: 0px;
 }
 
+/* HEADER */
 .logo {
     color: var(--IRIS);
     font-family: 'Raleway', sans-serif;
@@ -87,6 +88,7 @@ h4 {
     margin-right: 40px;
 }
 
+/* MAIN */
 /* Hero Section */
 .hero {
     background-color: var(--NAVY-BLUE);
