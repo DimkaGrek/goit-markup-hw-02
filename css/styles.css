@@ -25,9 +25,6 @@ a,
 ul,
 ol {
     list-style-type: none;
-    display: flex;
-    margin: 0px;
-    padding: 0px;
 }
 .list {
     list-style-type: none;
@@ -38,15 +35,6 @@ h2,
 h3,
 h4 {
     margin: 0px;
-}
-
-header {
-    padding: 25px 156px;
-    display: flex;
-    align-items: center;
-}
-nav {
-    display: flex;
 }
 
 .logo {
@@ -102,8 +90,6 @@ nav {
 /* Hero Section */
 .hero {
     background-color: var(--NAVY-BLUE);
-    /* height: 600px; */
-    /* padding-top: 188px; */
 }
 .hero-title {
     color: var(--WHITE);
@@ -115,27 +101,17 @@ nav {
     /* margin-bottom: 48px; */
 }
 .hero-btn {
-    padding: 16px 32px;
-    border-radius: 4px;
     background-color: var(--IRIS);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--WHITE);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.04em;
-    /* display: block; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
     cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: var(--OCEAN);
-}
-
-.our-team {
-    padding: 120px 156px;
 }
 
 /* Section 2 - Mastery */
@@ -169,10 +145,6 @@ nav {
     background: var(--CORNFLOWER);
     margin-right: 24px;
 }
-.activites-item img {
-    display: block;
-    width: 360px;
-}
 
 /* Our Team */
 .our-team {
@@ -193,10 +165,6 @@ nav {
 }
 .team-card {
     background: var(--WHITE);
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-card img {
     width: 264px;
@@ -223,8 +191,7 @@ nav {
 }
 
 /* Footer */
-footer {
-    padding: 156px 101px 156px 190px;
+.footer {
     background: var(--NAVY-BLUE);
 }
 
@@ -241,69 +208,45 @@ footer {
 }
 
 /* -- Portfolio -- */
-/* Section Buttons */
-.buttons {
-    margin-bottom: 72px;
-}
-.buttons ul {
-    gap: 24px;
-    justify-content: center;
-}
-.buttons button {
-    padding: 12px 24px;
-    border-radius: 4px;
-    border: 1px solid var(--CORNFLOWER);
-    background: var(--CLOUD);
+/* Buttons */
+.btn {
+    background-color: var(--CLOUD);
     color: var(--IRIS);
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.64px;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
-.buttons li > .checked {
-    background: var(--OCEAN);
+.btn:hover,
+.btn:focus {
     color: var(--WHITE);
-    border: none;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-        0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+    background-color: var(--OCEAN);
 }
 
 /* Section Portfolio */
-.portfolio-list {
-    flex-direction: column;
-    gap: 48px;
-}
-.portfolio-row-list {
-    gap: 24px;
-}
-.portfolio img {
-    width: 360px;
-    margin-bottom: 32px;
-}
 .row-item {
     border: 1px solid var(--CORNFLOWER);
 }
 .row-item h3,
 .row-item p {
     margin: 0px;
-    padding: 0px;
     margin-left: 16px;
 }
-.row-item h3 {
+.row-item-title {
     color: var(--NAVY-BLUE);
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px; /* 120% */
-    letter-spacing: 0.4px;
+    line-height: 1.2; /* 120% */
+    letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
-.row-item p {
+.row-item-text {
     color: var(--SLATE);
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
     margin-bottom: 32px;
 }
