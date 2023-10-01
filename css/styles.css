@@ -41,10 +41,6 @@ header {
     align-items: center;
 }
 
-nav {
-    display: flex;
-}
-
 .logo {
     color: var(--NAVY-BLUE);
     font-family: Raleway;
