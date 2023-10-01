@@ -102,8 +102,8 @@ nav {
 /* Hero Section */
 .hero {
     background-color: var(--NAVY-BLUE);
-    height: 600px;
-    padding-top: 188px;
+    /* height: 600px; */
+    /* padding-top: 188px; */
 }
 .hero-title {
     color: var(--WHITE);
@@ -112,7 +112,7 @@ nav {
     font-weight: 700;
     line-height: 1.07; /* 107.143% */
     letter-spacing: 0.02em;
-    margin-bottom: 48px;
+    /* margin-bottom: 48px; */
 }
 .hero-btn {
     padding: 16px 32px;
@@ -124,9 +124,9 @@ nav {
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.04em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* display: block; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
     cursor: pointer;
 }
 .hero-btn:hover,
