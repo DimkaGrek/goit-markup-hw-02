@@ -101,8 +101,8 @@ nav {
 
 /* Hero Section */
 .hero {
-    height: 600px;
     background-color: var(--NAVY-BLUE);
+    height: 600px;
     padding-top: 188px;
 }
 .hero-title {
@@ -146,21 +146,21 @@ main,
 .mastery-item {
     margin-right: 24px;
 }
-.mastery-item h3 {
+.mastery-title {
     color: var(--NAVY-BLUE);
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px; /* 120% */
-    letter-spacing: 0.4px;
+    line-height: 1.2; /* 120% */
+    letter-spacing: 0.02em;
     margin: 0px;
     margin-bottom: 8px;
 }
-.mastery-item p {
+.mastery-text {
     color: var(--SLATE);
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
     margin: 0px;
 }
 .mastery ul li:last-child {
