@@ -80,7 +80,7 @@ nav {
     margin-right: 40px;
 }
 
-address {
+.address {
     font-style: normal;
     margin-left: auto;
 }
@@ -99,34 +99,39 @@ address {
     margin-right: 40px;
 }
 
+/* Hero Section */
 .hero {
     height: 600px;
     background-color: var(--NAVY-BLUE);
     padding-top: 188px;
 }
-.hero h1 {
+.hero-title {
     color: var(--WHITE);
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px; /* 107.143% */
-    letter-spacing: 1.12px;
+    line-height: 1.07; /* 107.143% */
+    letter-spacing: 0.02em;
     margin-bottom: 48px;
 }
-.hero button {
+.hero-btn {
     padding: 16px 32px;
     border-radius: 4px;
-    background: var(--IRIS);
+    background-color: var(--IRIS);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--WHITE);
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.64px;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.04em;
     display: block;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--OCEAN);
 }
 
 main,
